@@ -1,3 +1,0 @@
-<IfModule mod_alias.c>
-RedirectMatch 301 ^/forum/$ https://mysistoken.org/forum/
-</IfModule>
