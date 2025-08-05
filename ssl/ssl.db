@@ -1,0 +1,61 @@
+--- 
+files: 
+  certificate: 
+    mysistoken_org_a0495_088fd_1776556799_a17dba3ec7d830f0fa449b7cbf4f4b77: 
+      created: '1744956085'
+      domains: 
+        - mysistoken.org
+        - www.mysistoken.org
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: 30346339
+      id: mysistoken_org_a0495_088fd_1776556799_a17dba3ec7d830f0fa449b7cbf4f4b77
+      is_self_signed: 0
+      issuer.commonName: Sectigo RSA Domain Validation Secure Server CA
+      issuer.organizationName: Sectigo Limited
+      key_algorithm: rsaEncryption
+      modulus: a049537a1006f979d4348b8450bcd4fac0a50aaa6705082ecc9e7f89aa02694a124a4a79b7e3b572259e925346b02eb221707a2ae6e76f417b7517b1c90ad6a0610301670c1393367ebdc43e583c51a9a063f9582d6481a4c9dfebf7f598a2841f0cd9674d17ebbb1b6e8f23ad0256408752d30aad1976cf90a3577c492a4a552aecaf1cc90f92364aed93c033f25026f201c409182c2f521f5f0cfcab81962546f792fbbbf1ba121cd7bdd710ef6529758df2eefbf453ec601596f9dad97a6ae3becfe9aba44f27a6f52d7427e734692a4f0ecad3940a9a00c218a42da50e4936d795665251f05d846901964cb8307a4157beda224281e3802d2d9d87c088fd
+      modulus_length: 2048
+      not_after: '1776556799'
+      not_before: '1744934400'
+      serial: ceaede63344b5fde6d5c56cd71495f9a
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: mysistoken.org
+      validation_type: dv
+  csr: {}
+
+  key: 
+    a0495_088fd_8b28a6566545fa0a1b22e20338f258d0: 
+      created: '1744954341'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: nc_module_key_30346339
+      id: a0495_088fd_8b28a6566545fa0a1b22e20338f258d0
+      key_algorithm: rsaEncryption
+      modulus: a049537a1006f979d4348b8450bcd4fac0a50aaa6705082ecc9e7f89aa02694a124a4a79b7e3b572259e925346b02eb221707a2ae6e76f417b7517b1c90ad6a0610301670c1393367ebdc43e583c51a9a063f9582d6481a4c9dfebf7f598a2841f0cd9674d17ebbb1b6e8f23ad0256408752d30aad1976cf90a3577c492a4a552aecaf1cc90f92364aed93c033f25026f201c409182c2f521f5f0cfcab81962546f792fbbbf1ba121cd7bdd710ef6529758df2eefbf453ec601596f9dad97a6ae3becfe9aba44f27a6f52d7427e734692a4f0ecad3940a9a00c218a42da50e4936d795665251f05d846901964cb8307a4157beda224281e3802d2d9d87c088fd
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      a049537a1006f979d4348b8450bcd4fac0a50aaa6705082ecc9e7f89aa02694a124a4a79b7e3b572259e925346b02eb221707a2ae6e76f417b7517b1c90ad6a0610301670c1393367ebdc43e583c51a9a063f9582d6481a4c9dfebf7f598a2841f0cd9674d17ebbb1b6e8f23ad0256408752d30aad1976cf90a3577c492a4a552aecaf1cc90f92364aed93c033f25026f201c409182c2f521f5f0cfcab81962546f792fbbbf1ba121cd7bdd710ef6529758df2eefbf453ec601596f9dad97a6ae3becfe9aba44f27a6f52d7427e734692a4f0ecad3940a9a00c218a42da50e4936d795665251f05d846901964cb8307a4157beda224281e3802d2d9d87c088fd: 
+        mysistoken_org_a0495_088fd_1776556799_a17dba3ec7d830f0fa449b7cbf4f4b77: ~
+    subject.commonName: 
+      mysistoken.org: 
+        mysistoken_org_a0495_088fd_1776556799_a17dba3ec7d830f0fa449b7cbf4f4b77: ~
+  csr: 
+    commonName: {}
+
+    modulus: {}
+
+uniques: 
+  certificate: 
+    friendly_name: 
+      30346339: mysistoken_org_a0495_088fd_1776556799_a17dba3ec7d830f0fa449b7cbf4f4b77
+  csr: 
+    friendly_name: {}
+
+  key: 
+    friendly_name: 
+      nc_module_key_30346339: a0495_088fd_8b28a6566545fa0a1b22e20338f258d0
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      a049537a1006f979d4348b8450bcd4fac0a50aaa6705082ecc9e7f89aa02694a124a4a79b7e3b572259e925346b02eb221707a2ae6e76f417b7517b1c90ad6a0610301670c1393367ebdc43e583c51a9a063f9582d6481a4c9dfebf7f598a2841f0cd9674d17ebbb1b6e8f23ad0256408752d30aad1976cf90a3577c492a4a552aecaf1cc90f92364aed93c033f25026f201c409182c2f521f5f0cfcab81962546f792fbbbf1ba121cd7bdd710ef6529758df2eefbf453ec601596f9dad97a6ae3becfe9aba44f27a6f52d7427e734692a4f0ecad3940a9a00c218a42da50e4936d795665251f05d846901964cb8307a4157beda224281e3802d2d9d87c088fd: a0495_088fd_8b28a6566545fa0a1b22e20338f258d0

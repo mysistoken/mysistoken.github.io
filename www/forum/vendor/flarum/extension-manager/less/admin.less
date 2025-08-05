@@ -1,0 +1,104 @@
+@import "admin/Label";
+@import "admin/TaskOutputModal";
+@import "admin/QueueSection";
+@import "admin/ControlSection";
+
+.ExtensionManager-controlSection {
+  > .container {
+    padding-bottom: 0;
+  }
+}
+
+.FormControl-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.Form-group--danger {
+  border: 2px solid var(--alert-error-bg);
+  border-radius: var(--border-radius);
+  background-color: transparent;
+}
+
+// @TODO add to core
+.Checkbox--switch.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.Form--controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.ButtonGroup--full {
+  width: 100%;
+  display: flex;
+
+  > .Button:first-child {
+    flex-grow: 1;
+    text-align: start;
+  }
+}
+
+.ConfigureAuth-hosts, .ConfigureComposer-repositories {
+  > .ButtonGroup {
+    margin-bottom: 8px;
+  }
+}
+
+.flarum-extension-manager-Page .SettingsGroups .Form {
+  max-height: unset;
+}
+
+.ExtensionManager-SettingsGroups {
+  display: flex;
+  column-count: 3;
+  column-gap: 30px;
+  flex-wrap: wrap;
+
+  .Form {
+    min-width: 300px;
+    max-height: 500px;
+    display: inline-grid;
+    padding: 10px 20px;
+    min-height: 20vh;
+    max-width: 400px;
+    grid-template-rows: min-content;
+    border: 1px solid var(--control-bg);
+    border-radius: var(--border-radius);
+    flex: 1 1 160px;
+
+    >label {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 1209px) {
+      margin-bottom: 20px;
+    }
+
+    >ol {
+      >li {
+        margin-top: 8px;
+
+        .Button {
+          float: right;
+          visibility: hidden;
+          margin: -8px -16px -8px 16px;
+        }
+      }
+    }
+
+    >label {
+      float: left;
+      font-weight: bold;
+      color: var(--muted-color);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MYSIS Token",
+  "short_name": "MYSIS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8e00ff",
+  "icons": [
+    {
+      "src": "/nc_assets/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/nc_assets/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
